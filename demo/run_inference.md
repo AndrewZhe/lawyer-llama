@@ -1,9 +1,9 @@
 # 模型推理
 我们目前公开了以下版本的Lawyer LLaMA：
-* lawyer-llama-13b-beta1.0: 以[Chinese-LLaMA-13B](https://github.com/ymcui/Chinese-LLaMA-Alpaca)为底座，未经过法律语料continual training，使用通用instruction和法律instruction进行SFT，配有婚姻相关法律检索模块。
+* lawyer-llama-13b-beta1.0: 以[Chinese-LLaMA-13B](https://github.com/ymcui/Chinese-LLaMA-Alpaca)为底座，**未经过法律语料continual training**，使用通用instruction和法律instruction进行SFT，配有婚姻相关法律检索模块。
 
 我们计划公开：
-* 以ChatCLM为底座训练的模型
+* 以ChatGLM为底座训练的模型
 * 经过法律语料continual training的版本
 
 ## 运行环境
