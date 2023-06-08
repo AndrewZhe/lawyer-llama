@@ -17,6 +17,8 @@ Lawyer LLaMA 首先在大规模法律语料上进行了continual pretraining，�
 
 ## 新闻
 
+[2023/6/8] 开源了`lawyer-llama-13b-beta1.0`模型参数。
+
 [2023/5/25] 开源了更大规模的指令微调数据，发布了包含和用户问题相关法条的对话数据。
 
 [2023/5/25] 发布了[Lawyer LLaMA技术报告](https://arxiv.org/abs/2305.15062)。
@@ -29,9 +31,9 @@ Lawyer LLaMA 首先在大规模法律语料上进行了continual pretraining，�
 
 - [X] 开源法律咨询多轮对话数据 (持续增加中)
 
-- [ ] 开源通用法律领域的预训练模型
+- [x] 开源特定法律领域的咨询模型
 
-- [ ] 开源特定法律领域的咨询模型
+- [ ] 开源通用法律领域的预训练模型
 
 ## 训练数据
 
@@ -90,7 +92,10 @@ Lawyer LLaMA 首先在大规模法律语料上进行了continual pretraining，�
 
 ## 模型参数
 
-在符合LLaMA使用条款的情况下，我们将于近期公开基于LLaMA 7B训练的中文法律模型。
+目前公开了以下版本的Lawyer LLaMA：
+* lawyer-llama-13b-beta1.0: 以[Chinese-LLaMA-13B](https://github.com/ymcui/Chinese-LLaMA-Alpaca)，未经过法律语料continual training，使用通用instruction和法律instruction进行SFT，配有婚姻相关法律检索模块。
+
+下载地址和使用方法见`demo/run_inference.md`。
 
 ## **系统效果**
 
@@ -150,7 +155,9 @@ https://github.com/tatsu-lab/stanford_alpaca
 
 https://github.com/LianjiaTech/BELLE
 
+https://github.com/ymcui/Chinese-LLaMA-Alpaca
 
+https://github.com/pointnetwork/point-alpaca
 
 本项目贡献人员：
 
