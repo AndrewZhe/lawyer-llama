@@ -17,7 +17,7 @@ Lawyer LLaMA 首先在大规模法律语料上进行了continual pretraining，�
 
 ## 新闻
 
-[2023/6/8] 开源了`lawyer-llama-13b-beta1.0`模型参数。
+[2023/6/8] 开源了[`lawyer-llama-13b-beta1.0`](https://github.com/AndrewZhe/lawyer-llama/blob/main/demo/run_inference.md)模型参数。
 
 [2023/5/25] 开源了更大规模的指令微调数据，发布了包含和用户问题相关法条的对话数据。
 
@@ -95,11 +95,11 @@ Lawyer LLaMA 首先在大规模法律语料上进行了continual pretraining，�
 目前公开了以下版本的Lawyer LLaMA：
 * lawyer-llama-13b-beta1.0: 以[Chinese-LLaMA-13B](https://github.com/ymcui/Chinese-LLaMA-Alpaca)，未经过法律语料continual training，使用通用instruction和法律instruction进行SFT，配有婚姻相关法律检索模块。
 
-下载地址和使用方法见`demo/run_inference.md`。
+下载地址和使用方法见[`demo/run_inference.md`](https://github.com/AndrewZhe/lawyer-llama/blob/main/demo/run_inference.md)。
 
 ## **系统效果**
 
-我们选取了LLaMA 7B作为基座模型，使用法律领域语料进一步预训练，并在通用领域和法律领域指令微调。
+我们选取了LLaMA 13B作为基座模型，使用法律领域语料进一步预训练，并在通用领域和法律领域指令微调。
 
 以下对比了该模型和ChatGPT对于部分输入样例的回复：
 
