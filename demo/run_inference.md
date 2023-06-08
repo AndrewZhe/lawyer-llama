@@ -23,7 +23,7 @@
 
 3. 利用原始LLaMA文件中的`7B/consolidated.00.pth`文件，运行以下bash命令，使用`decrypt.py`对Lawyer LLaMA模型文件进行解码。
 ```bash
-for f in "/path/to/model/pytorch_model"*; \
+for f in "/path/to/model/pytorch_model"*".enc"; \
     do if [ -f "$f" ]; then \
        python3 decrypt.py "$f" "/path/to_original_llama/7B/consolidated.00.pth" "/path/to/model"; \
     fi; \
