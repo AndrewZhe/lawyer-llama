@@ -47,6 +47,16 @@ Lawyer LLaMA 首先在大规模法律语料上进行了continual pretraining，�
 
 ### 法律指令微调数据
 
+#### 开源数据概览
+| 文件名 | 规模 | 描述 |
+| -- | -- | -- |
+| judical_examination.json | 2,000 | ChatGPT生成的法考题解答 |
+| judical_examination_v2.json | 5,000 | ChatGPT生成的法考题解答（第二批公开） |
+| legal_advice.json | 5,000 | ChatGPT生成的法律咨询回复 |
+| legal_counsel_v2.json | 8,000 | ChatGPT生成的法律咨询回复（第二批公开） |
+| legal_counsel_with_article_v2.json | 1,000 | ChatGPT基于法条生成的法律咨询回复 |
+| legal_counsel_multi_turn_with_article_v2.json | 476 | ChatGPT基于法条生成的多轮法律咨询对话 |
+
 #### 法考数据
 我们将[JEC-QA中国法考数据集](https://jecqa.thunlp.org/)中的试题输入ChatGPT，让其生成对每个答案的解析。
 
