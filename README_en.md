@@ -14,7 +14,8 @@ Our model is capable of:
 
 In order to contribute to the open research of the Chinese legal large-scale model, this project will open-source a series of **legal domain instruction tuning data** and **parameters of the Chinese legal large-scale model trained based on LLaMA**.
 
-We are planning a beta testing experience for Lawyer LLaMA 13B. If you want to try our model, please fill in [this questionnaire (in Chinese)](https://wj.qq.com/s2/12427321/f54f/), and we will contact you by email.
+~~We are planning a beta testing experience for Lawyer LLaMA 13B. If you want to try our model, please fill in [this questionnaire (in Chinese)](https://wj.qq.com/s2/12427321/f54f/), and we will contact you by email.~~
+(Registration is currently suspended due to limited server resources. We are in the process of model update iterations, please wait for the next round of internal testing.)
 
 
 ## News
