@@ -50,3 +50,5 @@ python demo_web.py \
 --checkpoint /path/to/model \
 --classifier_url "http://127.0.0.1:9098/check_hunyin"
 ```
+
+如需使用nginx反向代理访问此服务，可参考https://github.com/LeetJoe/lawyer-llama/blob/main/demo/nginx_proxy.md （Credit to [@LeetJoe](https://github.com/LeetJoe)）
