@@ -63,12 +63,12 @@ if __name__ == "__main__":
         # 构造输入
         if len(retrieve_output) == 0:
             input_text = "你是人工智能法律助手“Lawyer LLaMA”，能够回答与中国法律相关的问题。\n"
-            for history_pair in chat_history[:-1]:
+            for history_pair in chat_history:
                 input_text += f"### Human: {history_pair[0]}\n### Assistant: {history_pair[1]}\n"
             input_text += f"### Human: {current_user_input}\n### Assistant: "
         else:
             input_text = f"你是人工智能法律助手“Lawyer LLaMA”，能够回答与中国法律相关的问题。请参考给出的\"参考法条\"，回复用户的咨询问题。\"参考法条\"中可能存在与咨询无关的法条，请回复时不要引用这些无关的法条。\n"
-            for history_pair in chat_history[:-1]:
+            for history_pair in chat_history:
                 input_text += f"### Human: {history_pair[0]}\n### Assistant: {history_pair[1]}\n"
             input_text += f"### Human: {current_user_input}\n### 参考法条: {retrieve_output[0]['text']}\n{retrieve_output[1]['text']}\n{retrieve_output[2]['text']}\n### Assistant: "
 
