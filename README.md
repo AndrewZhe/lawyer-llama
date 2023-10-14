@@ -19,6 +19,7 @@ Lawyer LLaMA 首先在大规模法律语料上进行了continual pretraining，�
 （因服务器资源有限，目前暂停报名。我们正在进行模型更新迭代，敬请等待下一轮内测。）
 
 ## 新闻
+[2023/10/14] 更新了Lawyer LLaMA技术报告[**Lawyer LLaMA: Enhancing LLMs with Legal Knowledge**](https://github.com/AndrewZhe/lawyer-llama/blob/main/lawyer_llama_report.pdf)，提供了更多的技术细节和研究发现。
 
 [2023/6/8] 开源了[`lawyer-llama-13b-beta1.0`](https://github.com/AndrewZhe/lawyer-llama/blob/main/demo/run_inference.md)模型参数。
 
