@@ -15,9 +15,6 @@ Lawyer LLaMA 首先在大规模法律语料上进行了continual pretraining，�
 
 为了给中文法律大模型的开放研究添砖加瓦，本项目将开源一系列**法律领域的指令微调数据**和**基于LLaMA训练的中文法律大模型的参数** 。
 
-~~我们正在计划进行Lawyer LLaMA 13B内测体验。如果你想体验我们的模型，请填写[此问卷](https://wj.qq.com/s2/12427321/f54f/)，我们将通过邮件联系您。~~
-（因服务器资源有限，目前暂停报名。我们正在进行模型更新迭代，敬请等待下一轮内测。）
-
 ## 新闻
 [2023/10/14] 更新了Lawyer LLaMA技术报告[**Lawyer LLaMA: Enhancing LLMs with Legal Knowledge**](https://github.com/AndrewZhe/lawyer-llama/blob/main/lawyer_llama_report.pdf)，提供了更多的技术细节和研究发现。
 
