@@ -19,6 +19,7 @@ In order to contribute to the open research of the Chinese legal large-scale mod
 
 
 ## News
+[2023/10/14] Updated the report [**Lawyer LLaMA: Enhancing LLMs with Legal Knowledge**](https://github.com/AndrewZhe/lawyer-llama/blob/main/lawyer_llama_report.pdf), providing more technical details and findings.
 
 [2023/6/8] Open-sourced the [`lawyer-llama-13b-beta1.0`](https://github.com/AndrewZhe/lawyer-llama/blob/main/demo/run_inference.md) model parameters.
 
