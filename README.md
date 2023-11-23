@@ -193,15 +193,15 @@ https://github.com/pointnetwork/point-alpaca
 ```Plaintext
 @article{lawyer-llama-report,
   title={Lawyer LLaMA Technical Report},
-  author={Quzhe Huang and Mingxu Tao and Zhenwei An and Chen Zhang and Cong Jiang and Zhibin Chen and Zirui Wu and Yansong Feng},
+  author={Huang, Quzhe and Tao, Mingxu and Zhang, Chen and An, Zhenwei and Jiang, Cong and Chen, Zhibin and Wu, Zirui and Feng, Yansong},
   journal={ArXiv},
   year={2023},
   volume={abs/2305.15062}
 }
 
 @misc{Lawyer-LLama,
-  author={Quzhe Huang and Mingxu Tao and Zhenwei An and Chen Zhang and Cong Jiang and Zhibin Chen and Zirui Wu and Yansong Feng},
   title={Lawyer Llama},
+  author={Huang, Quzhe and Tao, Mingxu and Zhang, Chen and An, Zhenwei and Jiang, Cong and Chen, Zhibin and Wu, Zirui and Feng, Yansong},
   year={2023},
   publisher={GitHub},
   journal={GitHub repository},
