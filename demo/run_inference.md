@@ -31,7 +31,7 @@ done
 ```
 将以上命令中的`/path/to/model/`替换成下载后的Lawyer LLaMA所在路径。
 
-4. 从[百度网盘](https://pan.baidu.com/s/1V9wsQR4ndKNqWRl8lGhOaw?pwd=r0vx)（提取码：r0vx）下载法条检索模块，并运行其中的`python server.py`启动法条检索服务，默认挂在9098端口。
+4. 从[百度网盘](https://pan.baidu.com/s/1tBkgMzcDe3zZ8Xyf22T7Wg)（提取码：jxqh）下载法条检索模块，并运行其中的`python server.py`启动法条检索服务，默认挂在9098端口。
 
 ## 模型运行
 ### 使用命令行运行
