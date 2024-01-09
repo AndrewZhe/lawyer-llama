@@ -172,7 +172,7 @@ https://github.com/pointnetwork/point-alpaca
 
 本项目贡献人员：
 
-[黄曲哲](https://andrewzhe.github.io/)\*，陶铭绪\*，安震威*，[张晨](https://luciusssss.github.io/)\*，姜聪，[陈智斌](https://zacharychenpk.github.io/)，[伍子睿](https://williamzr.github.io/)，[冯岩松](https://sites.google.com/site/ysfeng/home)
+[黄曲哲](https://andrewzhe.github.io/)\*，[陶铭绪](https://kobayashikanna01.github.io/)\*，[张晨](https://luciusssss.github.io/)\*，安震威*，姜聪，[陈智斌](https://zacharychenpk.github.io/)，[伍子睿](https://williamzr.github.io/)，[冯岩松](https://sites.google.com/site/ysfeng/home)
 
 \* Equal Contribution
 
